@@ -1,0 +1,186 @@
+table { width: 100%; margin: 5; padding: 5; font-size: small}
+table td {
+	padding: 0;
+	border-width: 0;
+	vertical-align: top;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #CCCCCC;
+}
+div#content { padding: 5px; text-align: left;}
+div#content td { padding: 3px;}
+div#footer {
+	text-align: center;
+	padding-top: 2px;
+	font-size: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+div#footer a {
+	font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; text-decoration: none; color: #FFFFFF; font-style: normal
+}
+div#footer a:hover { text-decoration: underline overline;  font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; color: #FFFF00; font-style: normal}
+body { font-family: Georgia, "Times New Roman", Times, serif; background: #000099; color: #999999; font-size: 12px; font-style: normal}
+a { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; text-decoration: none; color: #FFFFFF; font-style: normal}
+a:hover { text-decoration: underline overline;  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #FFFF00; font-style: normal}
+td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 2px;
+	background-position: center top;
+}
+input {
+	color : #000099;
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-size : 12px;
+	font-weight : normal;
+	border-color : #000000;
+	border-top-width : 1px;
+	border-right-width : 1px;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	text-indent : 2px;
+	background-color: #00FFFF;
+}
+textarea {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight : bold;
+	border-color : #000000;
+	border-top-width : 1px;
+	border-right-width : 1px;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	text-indent : 2px;
+	background-color: #00FFFF;
+}
+select {font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px;font-weight : bold;background-color:#FFFF99; } 
+img { border: 0;}
+ul { margin: 2px; padding: 2px; text-align: left;}
+li { margin-left: 2px; list-style: square inside;}
+
+.odd {
+	background-color: #0033CC;
+	color: #CCCCCC;
+}
+.outer {
+	background-color: #000066;
+	color: #CCCCCC;
+}
+.even {
+	background-color: #0000CC;
+	color: #CCCCCC;
+}
+th {
+	background-color: #0000FF;
+	text-align: left;
+	padding: 3px;
+	color: #FFFF99;
+}
+.head {
+	background-color: #000066;
+	padding: 3px;
+	color: #CCCCCC;
+}
+.foot {
+	background-color: #000066;
+	padding: 3px;
+	color: #FFFF33;
+}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; color: #000000; height: auto; max-height: 250px; margin-bottom: 10px; overflow: auto;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; color: #000000; height: auto; max-height: 250px; margin-bottom: 10px; overflow: auto;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #333333; font-weight:bold; border: 1px solid #cccccc; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #333333; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.item {border: 1px groove #00FFFF;}
+.itemHead {background-color: #CCCCCC; color: #0000CC; padding: 2px; font-weight: bold; text-align: left;}
+.itemInfo {
+	text-align: right;
+	padding: 3px;
+	background-color: #000099;
+	color: #CCCCCC;
+}
+.itemTitle a {font-size: 12 px; font-weight: bold; font-variant: small-caps; color: #0033FF; font-family: Georgia, "Times New Roman", Times, serif;}
+.itemTitle a:hover { text-decoration: underline overline;  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #FFFF00; font-variant: small-caps; }
+
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px; text-align: left}
+.itemText {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.5em;
+	color: #CCCCCC;
+}
+.itemText:first-letter {
+	font-size: 133%;
+	font-weight: bold;
+	color: #FFFF00;
+}
+.itemFoot {text-align: right; padding: 3px; background-color: #0000CC}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+.mainArea {
+	padding: 0px 5px 0px;
+	width: 800 px;
+	background-color: #0322DF;
+	vertical-align: top;
+}
+
+.leftCell {
+	padding: 0px 5px 0px;
+	border-left-style: ridge;
+	border-left-color: #00FFFF;
+	border-left-width: medium;
+	background-position: center top;
+	width: 80 px;
+}
+
+.rightCell {
+	padding: 0px 5px 0px;
+	border-left-style: ridge;
+	border-left-color: #00FFFF;
+	border-left-width: medium;
+	background-position: center top;
+	width: 80 px;
+}
+
+.blockTitle {
+	background-color: #0322DF;
+	color: #FFFF00;
+	padding: 2px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-width: thin;
+	border-bottom-style: ridge;
+	border-bottom-color: #00FFFF;
+}
+.blockContent {
+	background-color: #0322DF;
+	padding: 2px;
+	color: #CCCCCC;
+	background-position: center center;
+}
+
+td#mainmenu a { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; text-decoration: none; color: #FFFFFF; font-style: normal}
+td#mainmenu a:hover { text-decoration: underline overline;  font-family: Georgia, "Times New Roman", Times, serif; color: #FFFF00; font-style: normal}
+td#mainmenu a.menuTop {padding-left: 3px; line-height: 8px; }
+td#mainmenu a.menuMain { padding-left: 3px; line-height: 8px; }
+td#mainmenu a.menuSub {	padding-left: 9px; font-weight: normal; font-style: italic; line-height: 6px; font-size: 10px; }
+
+td#usermenu a {font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; text-decoration: none; color: #FFFFFF; font-style: normal}
+td#usermenu a:hover {text-decoration: underline overline;  font-family: Georgia, "Times New Roman", Times, serif; color: #FFFF00; font-style: normal}
+td#usermenu a.menuTop {padding-left: 3px; line-height: 8px; }
+
